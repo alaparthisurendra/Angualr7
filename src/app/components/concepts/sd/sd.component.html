@@ -1,0 +1,15 @@
+<p>
+  sd works!
+</p>
+<div *ngIf="isLoggedIn">
+Log In sucess
+</div>
+
+<div *ngIf="!isLoggedIn">
+    Not LoggedIn sucess
+</div>
+
+<p>*ngFor</p>
+<ul class ="text-left">
+  <li *ngFor="let menus of navMenus"><a href="">{{menus}}</a></li>
+</ul>

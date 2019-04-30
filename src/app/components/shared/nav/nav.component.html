@@ -1,0 +1,27 @@
+<ul class="navbar-nav mr-auto">
+  <li routerLinkActive="active"  [routerLinkActiveOptions]="{exact:true}" class="nav-item">
+    <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li  routerLinkActive="active" class="nav-item">
+    <a class="nav-link" routerLink="/concepts">Concepts</a>
+  </li>
+  <li routerLinkActive="active" class="nav-item">
+    <a class="nav-link " routerLink="/contacts" tabindex="-1">Contacts</a>
+  </li>
+  <li routerLinkActive="active" class="nav-item">
+    <a class="nav-link" routerLink="/about" tabindex="-1">About</a>
+  </li>
+  <li routerLinkActive="active" class="nav-item">
+      <a class="nav-link" routerLink="/get-in-touch" tabindex="-1">get-in-touch</a>
+    </li>
+  <!-- <li class="nav-item">
+      <a class="nav-link " href="#" tabindex="-1">Get in touch</a> 
+  </li> -->
+  <ng-content></ng-content>
+  <!-- <li class="nav-item">
+      <a class="nav-link " href="#" tabindex="-1">Sign in</a> 
+  </li>
+  <li class="nav-item">
+      <a class="nav-link " href="#" tabindex="-1">Sign up</a> 
+  </li> -->
+</ul>

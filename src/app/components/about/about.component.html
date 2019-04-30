@@ -1,0 +1,14 @@
+<div>
+  <p>{{details | ellipsis }}</p>
+
+  <p>{{details | ellipsis : '2'}}</p>
+
+  <p>Birthday {{birthday | date }}  </p>
+
+  <hr><hr>
+  <br>
+  <h2>Cross component communication via Common shared services</h2>
+  Name is:  {{ profileName }} <br><br>
+  <input type="text" [(ngModel)]="newName"> <br><br>
+  <button type="button" (click)="updateNameHandler()">Update Name</button>
+</div>
